@@ -1,0 +1,4 @@
+create database book;
+use book;
+create table books(bookid Integer ,title varchar(25),author varchar(25),price double);
+insert into books values (1,"30 Days","Marc Reklau",130);
